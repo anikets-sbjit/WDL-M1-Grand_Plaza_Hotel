@@ -25,6 +25,38 @@
             <label>Phone: </label><br>
             <input type="tel" placeholder="Enter your phone number"><br>
         </fieldset>
+
+        <fieldset>
+            <legend>Booking Details</legend>
+            <label>Room Type: </label><br>
+            <select required>
+                <option value="">Select Room</option>
+                <option>Deluxe - ₹3000 / night</option>
+                <option>Executive - ₹5000 / night</option>
+                <option>Suite - ₹8000 / night</option>
+            </select><br>
+            <label>Check-in Date: </label><br>
+            <input type="date"><br>
+            <label>Check-out Date: </label><br>
+            <input type="date"><br>
+            <label>Number of Guests: </label><br>
+            <input type="number" min="1" max="5" placeholder="Enter number of guests"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label>Meal Plan: </label><br>
+            <select>
+                <option value="">Select Meal Plan</option>
+                <option>Breakfast Only</option>
+                <option>Breakfast & Dinner</option>
+                <option>Breakfast, Lunch & Dinner</option>
+            </select><br>
+            <label>Special Requests: </label><br>
+            <textarea rows="4" cols="30" placeholder="Enter any special requests or requirements"></textarea><br>
+        </fieldset>
+
+        
     </form>
 
 </body>
